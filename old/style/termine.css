@@ -1,0 +1,317 @@
+@font-face {
+font-family: 'Latoh';
+src: url('/schrift/Lato-Heavy.ttf');
+}
+
+@font-face {
+font-family: 'Latol';
+src: url('/schrift/Lato-Light.ttf');
+}
+
+@font-face {
+font-family: 'Latom';
+src: url('/schrift/Lato-Medium.ttf');
+}
+
+@font-face {
+font-family: 'Lator';
+src: url('/schrift/Lato-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Latob';
+src: url('/schrift/Lato-Black.ttf');
+}
+
+@font-face {
+font-family: 'Latosb';
+src: url('/schrift/Lato-Semibold.ttf');
+}
+
+#terminetitel {
+font-size:30px;
+font-family:Latoh;
+margin:0;
+margin-top:-35px;
+margin-left:630px;
+padding-left:10px;
+}
+
+#trennungtermine {
+position:absolute;
+background-color: rgb(69,155,52);
+height:10px;
+margin-left:0px;
+width:310px;
+margin-top:-2px;
+margin-left:640px;
+}
+
+.terminebox {
+position:absolute;
+background-color: rgb(245,245,250);
+width:330px;
+height:600px;
+margin-top:8px;
+margin-left:630px;  
+}
+
+.termine {
+position:absolute;
+overflow:auto;
+background-color: rgb(245,245,250);
+width:310px;
+height:540px;
+margin-top:10px;
+margin-left:10px;  
+}
+
+.termine #textblock {
+position:absolute;
+padding:0;
+margin:0;
+margin-left:75px;
+height:75px;
+width:210px;
+}
+
+.termine #datumblock {
+position:relative;
+width:75px;
+height:75px;
+background-color:lightgrey;
+margin-top:10px;
+padding-top:1px;
+}
+
+.termine #tagalt {
+margin:0;
+padding:0;
+font-family:Latob;
+font-size:40px;
+text-align:center;
+/*color: rgb(221,107,26);*/
+color: rgb(50,50,50);
+}
+
+.termine #monatalt {
+margin:0;
+padding:0;
+margin-top:-11px;
+font-family:Latob;
+font-size:19px;
+/*color: rgb(221,107,26);*/
+color: rgb(50,50,50);
+text-align:center;
+text-transform: uppercase;
+}
+
+.termine #zeitalt {
+margin:0;
+padding:0;
+margin-top:-3px;
+font-family:Latob;
+font-size:11px;
+text-align:center;
+color: rgb(50,50,50);
+/*color: rgb(50,50,50);*/
+}
+
+.termine #tagheute {
+margin:0;
+padding:0;
+font-family:Latob;
+font-size:40px;
+text-align:center;
+color: rgb(221,107,26);
+/*color: rgb(50,50,50);*/
+}
+
+.termine #monatheute {
+margin:0;
+padding:0;
+margin-top:-11px;
+font-family:Latob;
+font-size:19px;
+color: rgb(221,107,26);
+/*color: rgb(50,50,50);*/
+text-align:center;
+text-transform: uppercase;
+}
+
+.termine #zeitheute {
+margin:0;
+padding:0;
+margin-top:-3px;
+font-family:Latob;
+font-size:11px;
+text-align:center;
+color: rgb(221,107,26);
+}
+
+.termine #tagzukunft {
+margin:0;
+padding:0;
+font-family:Latob;
+font-size:40px;
+text-align:center;
+color: rgb(69,155,52);
+/*color: rgb(50,50,50);*/
+}
+
+.termine #monatzukunft {
+margin:0;
+padding:0;
+margin-top:-11px;
+font-family:Latob;
+font-size:19px;
+color: rgb(69,155,52);
+/*color: rgb(50,50,50);*/
+text-align:center;
+text-transform: uppercase;
+}
+
+.termine #zeitzukunft {
+margin:0;
+padding:0;
+margin-top:-3px;
+font-family:Latob;
+font-size:11px;
+text-align:center;
+color: rgb(69,155,52);
+/*color: rgb(50,50,50);*/
+}
+
+.termine #titel,#titeleins {
+padding:0; margin:0;
+position:relative;
+padding-left:10px;
+font-size:20px;
+font-family:Lator;
+}
+
+.termine #titel {
+margin-top:10px;
+}
+
+.termine #titeltrennung {
+position:absolute;
+background-color: lightgrey;
+height: 10px;
+/*width:210px;*/
+width:210px; 
+}
+
+.termine #inhalt {
+position:relative;
+padding:0; margin:0;
+margin-top:12px;
+padding-left:10px;
+}
+
+.termine #inhalt a {
+font-family: Latob;
+text-decoration:none;
+}
+
+#einzelinfo {
+width: 310px;
+}
+
+#einzelinfo2 {
+width: 230px;
+margin-left:10px;
+margin-top:10px;
+}
+
+#einzelinfo a, #einzelinfo2 a {
+margin-left:10px;
+position:absolute;
+font-family: Latob;
+font-size:20px;
+text-decoration:none;
+bottom:150px;
+}
+
+#einzelinfo2 a {
+bottom:80px;
+}
+
+#gdatum{
+background-color:lightgrey;
+height:40px;
+font-family: Latob;
+font-size:25px;
+color: rgb(69,155,52);
+padding-left:10px;
+padding-right:10px;
+padding-top:7px;
+}
+
+#gdatum2{
+background-color:lightgrey;
+height:30px;
+font-family: Latob;
+font-size:19px;
+color: rgb(69,155,52);
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+}
+
+#leftbar {
+background-color:lightgrey;
+float:left;
+width:10px;
+height:340px;
+}
+
+#informationen {
+height:340px;
+}
+
+#trenn, #trenn2 {
+margin:0;
+padding:0;
+background-color:lightgrey;
+width:310px; /*statt 285px*/
+height:10px;
+}
+
+#trenn2 {
+width:230px;
+}
+
+#kdatum {
+margin:0;
+padding:0;
+float:left;
+}
+
+#kzeit {
+margin:0;
+padding:0;
+float:right;
+}
+
+#kleer {
+height:0px;
+}
+
+#kver {
+margin:0;
+padding-top:30px;
+padding-left:20px;
+font-size:20px;
+font-family: Latob;
+}
+
+#ktitel {
+margin:0;
+padding:0;
+font-size:20px;
+}
+
+#kinfo {
+padding-left:20px;
+}

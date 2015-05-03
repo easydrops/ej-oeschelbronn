@@ -1,0 +1,111 @@
+@font-face {
+font-family: 'Latoh';
+src: url('/schrift/Lato-Heavy.ttf');
+}
+
+@font-face {
+font-family: 'Latol';
+src: url('/schrift/Lato-Light.ttf');
+}
+
+@font-face {
+font-family: 'Latom';
+src: url('/schrift/Lato-Medium.ttf');
+}
+
+@font-face {
+font-family: 'Lator';
+src: url('/schrift/Lato-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Latob';
+src: url('/schrift/Lato-Black.ttf');
+}
+
+@font-face {
+font-family: 'Latosb';
+src: url('/schrift/Lato-Semibold.ttf');
+}
+
+input.error {
+  background-color:red;
+}
+
+.titel #adminbildbeschriftung {
+background: url("/baustelle.gif");
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: auto 180px;  
+width:960px;
+height:180px;
+position:absolute;
+top:230px;
+left:50%;
+margin-left:-480px;
+}
+
+#contentblock #titel1, #titel2, #titel3 {                          
+font-size:30px;
+font-family:Latoh;
+margin:0;
+padding-top:110px;
+padding-left:10px;
+}
+
+#contentblock #titel2 {
+padding:0;
+margin-top:-37px;
+padding-left:10px;
+margin-left:490px;
+}
+
+#contentblock #titel3 {
+padding-top:310px;
+}
+
+#contentblock #trennungtitel1, #trennungtitel2, #trennungtitel3{
+position:absolute;
+background-color: rgb(69,155,52);
+height: 10px;
+margin-left:10px;
+width:450px;
+}
+
+#contentblock #trennungtitel2 {
+margin-left:500px;
+}
+
+#contentblock #trennungtitel3 {
+width:940px;
+}
+
+.blockleft, .blockright, .blockbottom{
+position:absolute;
+background-color: rgb(245,245,250);
+width:450px;
+margin-top:10px; 
+font-size:20px;
+padding:10px;
+}
+
+.blockright {
+margin-left:490px;
+}
+
+.blockbottom {
+width:940px;
+}
+
+.blockbottom table,tr, th,td{
+border: 1px solid black;
+}
+
+.blockbottom table {
+font-size:15px;
+border-collapse: collapse;
+}
+
+.blockbottom td {
+padding:5px;
+}

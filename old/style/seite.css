@@ -1,0 +1,764 @@
+@font-face {
+font-family: 'Latoh';
+src: url('/schrift/Lato-Heavy.ttf');
+}
+
+@font-face {
+font-family: 'Latol';
+src: url('/schrift/Lato-Light.ttf');
+}
+
+@font-face {
+font-family: 'Latom';
+src: url('/schrift/Lato-Medium.ttf');
+}
+
+@font-face {
+font-family: 'Lator';
+src: url('/schrift/Lato-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Latob';
+src: url('/schrift/Lato-Black.ttf');
+}
+
+@font-face {
+font-family: 'Latosb';
+src: url('/schrift/Lato-Semibold.ttf');
+}
+
+.titel #blackbox {
+position:absolute;
+top:230px;
+background-color: rgb(245,245,250);
+width:960px;                          
+height:180px;
+left:50%;
+margin-left:-480px;
+-moz-box-shadow: 0px 8px 6px -6px #888; /* Firefox */ 
+-webkit-box-shadow: 0px 8px 6px -6px #888; /* Chrome, Safari */ 
+-khtml-box-shadow: 0px 8px 6px -6px #888; /* Konqueror */
+box-shadow: 0px 8px 6px -6px #888; /* CSS3 */
+}
+
+.titel #allgbildbeschriftung, #upbildbeschriftung, #jugobildbeschriftung, #jkbildbeschriftung, #jchbildbeschriftung,#ciabildbeschriftung,
+#sobildbeschriftung, #kalbildbeschriftung, #galbildbeschriftung, #wgbildbeschriftung, #nixbildbeschriftung  {
+background: url("/titelbilder/titelbild_platzhalter.jpg");
+background-repeat: no-repeat;
+background-position: 50%;
+width:960px;
+height:180px;
+position:absolute;
+top:230px;
+left:50%;
+margin-left:-480px;
+}
+
+.titel #nixbildbeschriftung {
+background: white;
+}
+
+.titel #upbildbeschriftung {
+background: url("/titelbilder/titelbild_upstairs.svg");
+background-repeat: no-repeat;
+background-position:center;
+}
+
+.titel #jugobildbeschriftung {
+background: url("/titelbilder/titelbild_jugo.jpg");
+}
+
+.titel #jkbildbeschriftung {
+background: url("/titelbilder/titelbild_jugendkreis.png");
+}
+
+.titel #jchbildbeschriftung {
+background: url("/titelbilder/titelbild_jugendchor.jpg");
+}
+
+.titel #ciabildbeschriftung {
+background: url("/titelbilder/titelbild_cia.jpg");
+}
+
+.titel #sobildbeschriftung {
+background: url("/titelbilder/titelbild_events.jpg");
+}
+
+.titel #kalbildbeschriftung {
+background: url("/titelbilder/titelbild_termine.jpg");
+}
+
+.titel #galbildbeschriftung {
+background: url("/titelbilder/titelbild_galerie.jpg");
+}
+
+.titel #wgbildbeschriftung {
+background: url("/titelbilder/titelbild_wg.png");
+}
+
+.titel span#veranstalter{
+position:absolute;
+z-index:100;
+/*background:none;*/
+width:auto;
+/*width:440px;*/
+height: 50px;
+margin-top:120px;
+text-align:left;
+padding-left:10px;
+padding-top:10px;
+padding-right:10px;
+color: rgb(245,245,250);
+/*background-color: rgba(69,155,52,0.9);*/
+background-color: rgb(69,155,52);
+font-size:33px;
+font-family: Latoh;
+}
+
+.titel span#veranstalter_long{
+position:absolute;
+z-index:100;
+/*background:none;*/
+width:auto;
+height: 50px;
+margin-top:120px;
+text-align:left;
+padding-left:10px;
+padding-top:10px;
+padding-right:10px;
+color: rgb(245,245,250);
+background-color: rgba(69,155,52,0.9);
+font-size:27px;
+font-family: Latoh;
+}
+
+#contentblock {
+position:absolute;
+margin-top:370px;
+width:960px;
+left:50%;
+margin-left:-480px;
+}
+
+#contentblock #trennungnews, #trennungimp {
+position:absolute;
+background-color: rgb(69,155,52);
+height: 10px;
+margin-left:10px;
+width:630px;
+}
+
+#contentblock #trennungimp {
+width: 940px;
+}
+
+#contentblock #newstitel, #newstitelimp {
+font-size:30px;
+font-family:Latoh;
+margin:0;
+padding-top:110px;
+padding-left:10px;
+}
+
+#newstitelimp {
+padding-top:90px;
+}
+
+
+.laeuft {
+overflow:auto;
+position:absolute;
+background-color: rgb(245,245,250);
+width:640px;
+height:300px;
+margin-top:10px; 
+font-size:20px;
+padding-left:10px;
+padding-top:20px; 
+}
+
+#kommttitel {
+font-size:30px;
+font-family:Latoh;
+margin:0;
+margin-top:-35px;
+margin-left:720px;
+}
+
+#trennungkommt {
+position:absolute;
+background-color: rgb(69,155,52);
+height:10px;
+width:230px;
+margin-top:-2px;
+margin-left:720px;
+}
+
+.kommt {
+overflow:auto;
+position:absolute;
+background-color: rgb(245,245,250);
+width:250px;
+height:480px;
+margin-top:8px;
+margin-left:710px;  
+}
+
+.kommt #textblock {
+position:absolute;
+padding:0;
+margin:0;
+margin-left:80px;
+height:75px;
+width:150px;
+}
+
+.kommt #datumblock {
+position:relative;
+width:75px;
+height:75px;
+background-color:lightgrey;
+margin-top:10px;
+margin-left:10px;
+padding-top:1px;
+}
+
+.kommt #tagalt {
+margin:0;
+padding:0;
+font-family:Latob;
+font-size:40px;
+text-align:center;
+/*color: rgb(221,107,26);*/
+color: rgb(50,50,50);
+}
+
+.kommt #monatalt {
+margin:0;
+padding:0;
+margin-top:-11px;
+font-family:Latob;
+font-size:19px;
+/*color: rgb(221,107,26);*/
+color: rgb(50,50,50);
+text-align:center;
+text-transform: uppercase;
+}
+
+.kommt #zeitalt {
+margin:0;
+padding:0;
+margin-top:-2px;
+font-family:Latob;
+font-size:11px;
+text-align:center;
+/*color: rgb(221,107,26);*/
+color: rgb(50,50,50);
+}
+
+.kommt #tagheute {
+margin:0;
+padding:0;
+font-family:Latob;
+font-size:40px;
+text-align:center;
+color: rgb(221,107,26);
+/*color: rgb(50,50,50);*/
+}
+
+.kommt #monatheute {
+margin:0;
+padding:0;
+margin-top:-11px;
+font-family:Latob;
+font-size:19px;
+color: rgb(221,107,26);
+/*color: rgb(50,50,50);*/
+text-align:center;
+text-transform: uppercase;
+}
+
+.kommt #zeitheute {
+margin:0;
+padding:0;
+margin-top:-2px;
+font-family:Latob;
+font-size:11px;
+text-align:center;
+color: rgb(221,107,26);
+/*color: rgb(50,50,50);*/
+}
+
+.kommt #tagzukunft {
+margin:0;
+padding:0;
+font-family:Latob;
+font-size:40px;
+text-align:center;
+color: rgb(69,155,52);
+/*color: rgb(50,50,50);*/
+}
+
+.kommt #monatzukunft {
+margin:0;
+padding:0;
+margin-top:-11px;
+font-family:Latob;
+font-size:19px;
+color: rgb(69,155,52);
+/*color: rgb(50,50,50);*/
+text-align:center;
+text-transform: uppercase;
+}
+
+.kommt #zeitzukunft {
+margin:0;
+padding:0;
+margin-top:-2px;
+font-family:Latob;
+font-size:11px;
+text-align:center;
+color: rgb(69,155,52);
+/*color: rgb(50,50,50);*/
+}
+
+.kommt #titel {
+padding:0; margin:0;
+position:relative;
+padding-left:10px;
+margin-top:10px;
+font-size:20px;
+font-family:Lator;
+}
+
+.kommt #titeltrennung {
+position:absolute;
+background-color: lightgrey;
+height: 10px;
+width:150px; 
+}
+
+.kommt #inhalt {
+position:relative;
+padding:0; margin:0;
+margin-top:15px;
+padding-left:10px;
+}
+
+.kommt #inhalt a {
+font-family: Latob;
+text-decoration:none;
+}
+
+#contentblock #newstitel2 {
+font-size:30px;
+font-family:Latoh;
+margin:0;
+padding-top:370px;
+padding-left:10px;
+}
+
+.lief {
+position:absolute;
+background-color: rgb(245,245,250);
+width:640px;
+height:420px;
+margin-top:10px; 
+font-size:20px;
+padding-left:10px;
+padding-top:20px; 
+}
+
+.lief #bildblock{
+float:left;
+background-color:lightgrey;
+width:150px;
+height:150px;
+margin-right:10px;
+margin-bottom:30px;
+}
+
+.lief #galtrennung {
+position:absolute;
+margin-top:350px;
+background-color: lightgrey;
+height: 10px;
+width:630px; 
+}
+
+.lief img {
+float:left;
+margin-top:10px;
+height:20px;
+}
+
+#matitel {
+font-size:30px;
+font-family:Latoh;
+margin:0;
+margin-top:130px;
+margin-left:720px;
+}
+
+.ma {
+position:absolute;
+background-color: rgb(245,245,250);
+width:230px;
+height:265px;
+margin-top:8px;
+margin-left:710px; 
+padding-left:10px;
+padding-top:10px;
+padding-right:10px;
+font-size:15px; 
+}
+
+#contentblock #trennungkal {
+position:absolute;
+background-color: rgb(69,155,52);
+height: 10px;
+margin-left:10px;
+width:940px;
+}
+
+.kalender {
+position:absolute;
+background-color: rgb(245,245,250);
+width:950px;
+/*height:300px;*/ 
+margin-top:10px; 
+font-size:20px;
+padding-left:10px;
+padding-top:20px;
+padding-bottom:10px; 
+}
+
+.kalender table {
+border-collapse: collapse;
+}
+
+.kalender table a, a:visited {
+display:block;
+width:100%;
+height:100%;
+text-decoration:none;  
+color:black;
+}
+
+.kalender table a p{
+padding:0;
+margin:0;
+font-size:30px;
+}
+
+.kalender table th {
+border: 1px solid;
+width:131px;
+height:103px;
+border-top:0px;
+/*padding-top:40px;*/
+}
+
+.kalender table th#heute {
+background-color:lightgray;
+}
+
+.kalender table th#wahl {
+background-color:rgb(69,155,52);
+}
+
+
+.kalender table th#titel {
+height:40px;
+padding:0;
+}
+
+a#monatwahl {
+text-decoration:none;
+color:black;
+float:right;
+margin-right:10px;
+}
+
+#termin_block5, #termin_block4 {
+margin-top:683px;
+/*background:black;*/
+}
+
+#termin_block6 {
+margin-top:790px;
+}
+
+#kaltitel1 {
+font-size:30px;
+font-family:Latoh;
+margin:0;
+padding-left:10px;
+text-align:left;
+width:950px;
+}
+
+#kaltitel2 {
+float:right;
+margin-right:10px;
+}
+
+.aktuell_tag {
+overflow:auto;
+background-color: rgb(245,245,250);
+width:620px;
+height:270px;
+margin-top:10px; 
+font-size:20px;
+padding-left:10px;
+padding-top:20px;
+padding-bottom:10px; 
+float:left;
+}
+
+.aktuell_woche {
+overflow:auto;
+position:absolute;
+background-color: rgb(245,245,250);
+width:300px;
+height:270px;
+margin-top:10px; 
+font-size:20px;
+padding-left:10px;
+padding-top:20px;
+padding-bottom:10px;
+margin-left:650px;
+}
+
+.aktuell_tag #ganzertermin {
+position:relative;
+width:550px;
+background-color:lightgrey;
+margin-top:10px;
+padding-top:1px;
+}
+
+.aktuell_tag #zeitblock {
+position:relative;
+width:90px;
+margin:0;
+padding-top:1px;
+float:left;
+padding-top:10px;
+padding-left:10px;
+color: rgb(69,155,52);
+font-family: Latoh;
+}
+
+p#uhr {
+font-size:25px;
+margin:0;
+padding:0;
+padding-left:8px;
+}
+
+p#zeit {
+font-size:25px;
+margin:0;
+padding:0;
+padding-left:3px;
+}                                
+
+.aktuell_tag #textblock {
+background-color: rgb(245,245,250);
+width:450px;
+margin-left:90px;
+padding-left:10px;
+margin-top:-1px;
+padding-bottom:10px;
+}
+
+.aktuell_tag #titeltrennung {
+position:absolute;
+background-color: lightgrey;
+height:10px;
+width:450px;
+margin-left:-10px;
+}
+
+.aktuell_tag p#titel {
+margin:0;
+padding:0; 
+font-family: Latoh;
+}
+
+.aktuell_tag p#inhalt {
+margin:0;
+padding-top:20px;
+font-size:15px;
+}
+
+#leer {
+height:10px;
+background-color: rgb(245,245,250);
+}
+
+.aktuell_woche p#woche {
+margin:0;
+padding:0;
+font-size:25px;
+font-family: Latoh;
+}
+
+.aktuell_woche #wochetrennung {
+position:absolute;
+background-color: rgb(150,150,150);
+height: 10px;
+width:250px;
+}
+
+.aktuell_woche #wochentermine {
+width:250px;
+/*background-color:black; */
+margin-top:10px;
+padding-top:10px;
+}
+
+.aktuell_woche #marker {
+position:relative;
+float:left;
+width:20px;
+height:35px;
+background-color: lightgray;
+}
+
+.aktuell_woche #textblock {
+margin-left:30px;
+height:35px;
+width:210px;
+padding-left:10px;
+font-size:14px;
+font-family:Latoh;
+}
+
+.titel {
+background-color:white;
+}
+
+.titel a {
+text-decoration:none;
+}
+
+.titel #titelb1, #titelb2, #titelb3, #titelb4, #titelb5, #titelb6 {
+position:absolute;
+top:230px;
+background-color: rgb(245,245,250);
+width:960px;                          
+height:180px;
+left:50%;
+margin-left:-480px;
+-moz-box-shadow: 0px 8px 6px -6px #888; /* Firefox */ 
+-webkit-box-shadow: 0px 8px 6px -6px #888; /* Chrome, Safari */ 
+-khtml-box-shadow: 0px 8px 6px -6px #888; /* Konqueror */
+box-shadow: 0px 8px 6px -6px #888; /* CSS3 */
+background: url("/titelbilder/titelbild_platzhalter.jpg");
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: auto 180px;  
+}
+
+.titel #titelb1 {
+background: url("/titelbilder/titelbildsw_jugendkreis.png");
+}
+
+.titel #titelb2 {
+top:490px;
+background: url("/titelbilder/titelbild_upstairs.png");
+background-repeat: no-repeat;
+background-position:center;  
+}
+
+.titel #titelb3 {
+top:750px;
+background: url("/titelbilder/titelbild_jugo_sw.jpg");  
+}
+
+.titel #titelb4 {
+top:1010px;
+background: url("/titelbilder/titelbild_cia_sw.jpg");  
+}
+
+.titel #titelb5 {
+top:1270px;
+background: url("/titelbilder/titelbildsw_jugendchor.jpg");  
+}
+
+.titel #titelb6 {
+top:1530px;
+background: url("/titelbilder/titelbild_events_sw.jpg");  
+}
+
+#titeloverb1,#titeloverb2,#titeloverb3,#titeloverb4,#titeloverb5,#titeloverb6 {
+position:absolute;
+top:230px;
+width:960px;                          
+height:180px;
+left:50%;
+margin-left:-480px;
+opacity: 0;
+        -webkit-transition: all 1s;
+	  -moz-transition: all 1s;
+	  -o-transition: all 1s;
+   	transition: all 1s;
+}
+
+#titeloverb1 {
+background: url("/titelbilder/titelbild_jugendkreis.png");
+}
+
+#titeloverb2 {
+top:490px;
+background: url("/titelbilder/titelbild_upstairs.png");
+background-repeat: no-repeat;
+background-position:center; 
+}
+
+
+#titeloverb3 {
+top:750px;
+background: url("/titelbilder/titelbild_jugo.jpg");
+}
+
+#titeloverb4 {
+top:1010px;
+background: url("/titelbilder/titelbild_cia.jpg");
+}
+
+#titeloverb5 {
+top:1270px;
+background: url("/titelbilder/titelbild_jugendchor.jpg"); 
+}
+
+#titeloverb6 {
+top:1530px;
+background: url("/titelbilder/titelbild_events.jpg"); 
+}
+
+#titeloverb1:hover,#titeloverb2:hover,#titeloverb3:hover,#titeloverb4:hover,#titeloverb5:hover,#titeloverb6:hover{
+opacity: 1;
+        -webkit-transition: all 1s;
+	  -moz-transition: all 1s;
+	  -o-transition: all 1s;
+   	transition: all 1s;
+}
+
+#titelbesch {
+position:absolute;
+width:440px;
+height:120px;
+background-color: rgb(69,155,52);
+color:white;
+font-size:15px;
+font-family:Latoh;
+padding:10px;
+margin-left:480px;
+margin-top:20px;
+  }
+
+

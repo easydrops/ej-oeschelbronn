@@ -1,0 +1,148 @@
+@font-face {
+font-family: 'Latoh';
+src: url('/schrift/Lato-Heavy.ttf');
+}
+
+@font-face {
+font-family: 'Latol';
+src: url('/schrift/Lato-Light.ttf');
+}
+
+@font-face {
+font-family: 'Latom';
+src: url('/schrift/Lato-Medium.ttf');
+}
+
+@font-face {
+font-family: 'Lator';
+src: url('/schrift/Lato-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Latob';
+src: url('/schrift/Lato-Black.ttf');
+}
+
+@font-face {
+font-family: 'Latosb';
+src: url('/schrift/Lato-Semibold.ttf');
+}
+
+#menubg {
+z-index:900;
+position: absolute;
+width: 100%;
+height: 50px;
+background-color:rgb(245,245,250);
+margin-top: 130px;
+-moz-box-shadow: 0px 8px 6px -6px #888; /* Firefox */ 
+-webkit-box-shadow: 0px 8px 6px -6px #888; /* Chrome, Safari */ 
+-khtml-box-shadow: 0px 8px 6px -6px #888; /* Konqueror */
+box-shadow: 0px 8px 6px -6px #888; /* CSS3 */
+}
+
+#menu {
+  font-size:22px;
+  font-family:Latoh;
+  position:relative;
+  width:940px;
+  left:50%;
+  margin-left:-470px; 
+  padding-top:12px;
+  z-index:1000;
+}
+
+
+#menu ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+ 
+}
+
+#menu li.topmenu {
+  float:left;
+}
+
+.topmenu a,span {
+  float:left;
+  width:100px;
+  text-align:center;
+}
+
+.topmenu ul{
+  opacity:0;
+}
+
+.topmenu a, .submenu a{
+  padding:1px 5px;
+  border-right:2px solid black;
+  border-collapse:collapse;
+  color:black;
+  text-decoration:none;
+  margin:0;  
+}
+
+.topmenu span {
+  padding:1px 5px;
+  border-right:2px solid black;
+  border-collapse:collapse;
+  color: rgb(69,155,52);
+  text-decoration:none;
+  margin:0;  
+}
+
+.submenu a,span{
+  background-color:rgb(245,245,250);
+  z-index: 1000;
+}
+
+.submenu span {
+  padding:1px 5px;
+  border-right:2px solid black;
+  border-collapse:collapse;
+  color: rgb(69,155,52);
+  text-decoration:none;
+  margin:0;  
+}
+
+.submenu a, .submenu span{
+  font-size:18px;
+  font-family:Lator;
+  /*width:105px;*/
+  position:relative;
+  clear:both; /* special IE6 */
+  /*border-bottom: 1px solid grey;*/
+  
+}
+
+#menu a:hover, .topmenu.on a {
+  color:black;
+  background-color: rgb(69,155,52);
+  font-family:Latoh;
+}
+
+.submenu a:hover {
+  font-size:20px;
+}
+
+.topmenu:hover ul {
+  display:block;
+}
+
+#menu li>ul {
+    opacity: 0; 
+    display: none;
+        -webkit-transition: opacity 0.5s;
+	  -moz-transition: opacity 0.5s;
+	  -o-transition: opacity 0.5s;
+   	transition: opacity 0.5s;
+  }
+#menu li:hover>ul {
+    opacity: 1;
+    display: inline;
+        -webkit-transition: opacity 0.5s;
+	  -moz-transition: opacity 0.5s;
+	  -o-transition: opacity 0.5s;
+   	transition: opacity 0.5s;
+  }

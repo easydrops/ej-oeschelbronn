@@ -1,0 +1,172 @@
+/* line 3, ../scss/modules/_base.scss */
+body {
+  font-family: Verdana, sans-serif;
+  background: #ecf0f1;
+}
+
+/* line 8, ../scss/modules/_base.scss */
+main {
+  padding: 1em;
+}
+
+/* line 12, ../scss/modules/_base.scss */
+footer {
+  display: block;
+}
+
+/* line 16, ../scss/modules/_base.scss */
+a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+/* line 21, ../scss/modules/_base.scss */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 26, ../scss/modules/_base.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 29, ../scss/modules/_base.scss */
+.clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* line 1, ../scss/modules/_header.scss */
+.page-logo {
+  background: #459b34;
+  padding: 20px;
+  margin: 0 auto;
+}
+/* line 6, ../scss/modules/_header.scss */
+.page-logo img {
+  width: 335px;
+}
+
+/* line 11, ../scss/modules/_header.scss */
+.main-navigation {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  margin: 0 auto;
+  text-align: center;
+  -moz-box-shadow: #888 0px 4px 6px;
+  -webkit-box-shadow: #888 0px 4px 6px;
+  box-shadow: #888 0px 4px 6px;
+}
+/* line 19, ../scss/modules/_header.scss */
+.main-navigation ul {
+  background: #ffffff;
+  margin: 0;
+  padding: 1em;
+}
+/* line 24, ../scss/modules/_header.scss */
+.main-navigation ul li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  border-right: 2px solid black;
+}
+/* line 30, ../scss/modules/_header.scss */
+.main-navigation ul li:last-of-type {
+  border: none;
+}
+/* line 35, ../scss/modules/_header.scss */
+.main-navigation ul li .header-buttons img {
+  height: 22px;
+}
+/* line 40, ../scss/modules/_header.scss */
+.main-navigation ul li ul {
+  display: none;
+}
+/* line 45, ../scss/modules/_header.scss */
+.main-navigation ul li:hover ul {
+  display: block;
+  position: absolute;
+}
+/* line 49, ../scss/modules/_header.scss */
+.main-navigation ul li:hover ul li {
+  display: block;
+  text-align: left;
+  border: none;
+}
+/* line 57, ../scss/modules/_header.scss */
+.main-navigation ul li a {
+  padding: 1em;
+  text-decoration: none;
+}
+
+/* line 65, ../scss/modules/_header.scss */
+.main-navigation--fixed {
+  position: fixed;
+  top: 0;
+}
+
+/* line 1, ../scss/modules/_footer.scss */
+.main-footer {
+  position: relative;
+  background: #459b34;
+  width: 100%;
+}
+/* line 6, ../scss/modules/_footer.scss */
+.main-footer ul {
+  float: left;
+  margin: 0;
+  padding: 1em;
+}
+/* line 11, ../scss/modules/_footer.scss */
+.main-footer ul li {
+  position: relative;
+  list-style: none;
+  border-right: 2px solid black;
+  width: 20%;
+}
+/* line 17, ../scss/modules/_footer.scss */
+.main-footer ul li a {
+  color: #ffffff;
+}
+/* line 23, ../scss/modules/_footer.scss */
+.main-footer img {
+  float: left;
+  width: 100px;
+}
+
+/* line 1, ../scss/modules/_slider.scss */
+.slider-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  -moz-box-shadow: #888 0px 4px 6px;
+  -webkit-box-shadow: #888 0px 4px 6px;
+  box-shadow: #888 0px 4px 6px;
+  margin-bottom: 20px;
+}
+/* line 9, ../scss/modules/_slider.scss */
+.slider-wrapper .slider-background {
+  position: relative;
+  background: url("../images/slider/slide_willkommen.jpg") #b0c4de center no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+/* line 16, ../scss/modules/_slider.scss */
+.slider-wrapper .slider-nav {
+  background: #ffffff;
+}
+/* line 18, ../scss/modules/_slider.scss */
+.slider-wrapper .slider-nav ul {
+  margin: 0;
+  width: 100%;
+}
+/* line 22, ../scss/modules/_slider.scss */
+.slider-wrapper .slider-nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1em;
+  width: 25%;
+}

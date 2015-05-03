@@ -1,0 +1,4 @@
+AuthName "Loginbereich"
+AuthType Basic
+AuthUserFile /home/www/web84/html/schutz/.htpasswd
+require valid-user

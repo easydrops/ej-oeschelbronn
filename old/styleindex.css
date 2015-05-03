@@ -1,0 +1,192 @@
+@import url("style/menu.css");
+@import url("style/slide.css");
+@import url("style/news.css");
+@import url("style/termine.css");
+@import url("style/seite.css");
+@import url("style/admin.css");
+@import url("style/impressum.css");
+
+
+html { 
+background: url('background.png');
+}
+
+@font-face {
+font-family: 'Latoh';
+src: url('/schrift/Lato-Heavy.ttf');
+}
+
+@font-face {
+font-family: 'Latol';
+src: url('/schrift/Lato-Light.ttf');
+}
+
+@font-face {
+font-family: 'Latom';
+src: url('/schrift/Lato-Medium.ttf');
+}
+
+@font-face {
+font-family: 'Lator';
+src: url('/schrift/Lato-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Latob';
+src: url('/schrift/Lato-Black.ttf');
+}
+
+@font-face {
+font-family: 'Latosb';
+src: url('/schrift/Lato-Semibold.ttf');
+}
+
+body {
+margin: 0 auto;
+padding: 0;
+width: 100%;
+font-family: Lator;
+font-size: 14px;
+}
+
+/* ==================================================================================================
+    Head-Bereich
+   ================================================================================================== */
+
+#headerbg {
+position:absolute;
+width:100%;
+height: 130px;
+background-color: rgb(69,155,52);
+margin: 0;
+padding: 0;
+}
+
+#header {
+position: absolute;
+width: 960px;
+left: 50%;
+margin: 0;
+margin-left: -480px;
+padding: 20px;
+}
+
+#header img {
+width: 335px;
+}
+
+/* ==================================================================================================
+    Menü-Bereich   (menu.css)
+   ================================================================================================== */
+    
+
+/* ==================================================================================================
+    Slide-Show   (slide.css)
+   ================================================================================================== */
+   
+
+/* ==================================================================================================
+    News   (news.css)
+   ================================================================================================== */
+ 
+
+/* ==================================================================================================
+    Termine  (termine.css)
+   ================================================================================================== */
+ 
+
+/* ==================================================================================================
+    Standardseiten  (seite.css)
+   ================================================================================================== */
+
+
+
+/* ==================================================================================================
+    Ende
+   ================================================================================================== */
+
+#content{
+}
+
+#bottom {
+position:absolute;
+width:1120px;
+left:50%;
+margin-left:-560px;
+}
+
+#bottom a {
+text-decoration:none;
+color:white;
+}
+
+#overline {
+width:1120px;
+height:20px;
+background-color:rgb(65,127,47);
+}
+
+#inner {
+width:1040px;
+height:140px;
+background-color: rgb(69,155,52);
+padding-left:80px;
+padding-top:20px;
+}
+
+#inner img {
+float:left;
+width:100px;
+}
+
+#inner #verttrennbig, #verttrenn{
+width:2px;
+height:123px;
+background: black;
+margin-left:10px;
+float:left;
+}
+
+#inner #verttrenn {
+height:90px;
+}
+
+#inner #seitenblock,#seitenblocklast {
+font-family: Latoh;
+color:white;
+float:left;
+margin-left:10px;
+font-size:12px;
+min-width:160px;
+}
+
+#inner #seitenblocklast {
+color:black;
+}
+
+#inner #ab {
+height:2px;
+}
+
+#inner #ab2 {
+height:5px;
+}
+
+#wichtig {
+float:left;
+color:white;
+text-shadow: 2px 2px 3px black;
+}
+
+#cop {
+padding-left:10px;
+font-family:Latoh;
+font-size:12px;
+}
+
+
+
+
+
+
+

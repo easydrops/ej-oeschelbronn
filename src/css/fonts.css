@@ -1,0 +1,4 @@
+@font-face {
+  font-family: nordic;
+  src: url("nordicahairline-webfont.woff2") format("woff2"), url("nordicahairline-webfont.woff") format("woff"), url("nordicahairline-webfont.ttf") format("truetype"), url("nordicahairline-webfont.svg#svgFontName") format("svg");
+}

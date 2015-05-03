@@ -1,0 +1,68 @@
+.page-logo {
+  background: $green;
+  padding: 20px;
+  margin: 0 auto;
+
+  img {
+    width: 335px;
+  }
+}
+
+.main-navigation {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  margin: 0 auto;
+  text-align: center;
+  @include box-shadow(#888 0px 4px 6px);
+
+  ul {
+    background: $white;
+    margin: 0;
+    padding: 1em;
+
+    li {
+      display: inline-block;
+      position: relative;
+      list-style: none;
+      border-right: 2px solid black;
+
+      &:last-of-type {
+        border: none;
+      }
+
+      .header-buttons {
+        img {
+          height: 22px;
+        }
+      }
+
+        ul {
+          display: none;
+        }
+
+        &:hover {
+          ul {
+            display: block;
+            position: absolute;
+
+            li {
+              display: block;
+              text-align: left;
+              border: none;
+            }
+          }
+        }
+
+      a {
+        padding: 1em;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.main-navigation--fixed {
+  position: fixed;
+  top: 0;
+}

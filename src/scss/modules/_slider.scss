@@ -1,0 +1,33 @@
+.slider-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  @include box-shadow(#888 0px 4px 6px);
+  margin-bottom: 20px;
+
+
+  .slider-background {
+    position: relative;
+    background: url("../images/slider/slide_willkommen.jpg") #b0c4de center no-repeat;
+    background-size: cover;
+    height: 500px;
+
+  }
+  .slider-nav {
+    background: $white;
+    ul {
+      margin: 0;
+      width: 100%;
+
+      li {
+        list-style: none;
+        display: inline-block;
+        padding: 1em;
+        width: 25%;
+
+        a {
+        }
+      }
+    }
+  }
+}

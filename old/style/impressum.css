@@ -1,0 +1,88 @@
+@font-face {
+font-family: 'Latoh';
+src: url('/schrift/Lato-Heavy.ttf');
+}
+
+@font-face {
+font-family: 'Latol';
+src: url('/schrift/Lato-Light.ttf');
+}
+
+@font-face {
+font-family: 'Latom';
+src: url('/schrift/Lato-Medium.ttf');
+}
+
+@font-face {
+font-family: 'Lator';
+src: url('/schrift/Lato-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Latob';
+src: url('/schrift/Lato-Black.ttf');
+}
+
+@font-face {
+font-family: 'Latosb';
+src: url('/schrift/Lato-Semibold.ttf');
+}
+
+.imp, .kont {
+overflow:auto;
+position:absolute;
+background-color: rgb(245,245,250);
+width:940px;
+margin-top:10px; 
+font-size:19px;
+font-family: Latosb;
+padding-left:10px;
+padding-top:20px;
+padding-bottom:30px;
+padding-right:10px; 
+}
+
+#mail {
+text-decoration:none;
+color: rgb(69,155,52);
+}
+
+.kont { 
+font-size:20px;
+font-family: Latosb; 
+}
+
+.kont table td#b {
+font-family: Latoh;
+}
+
+.kont table,tr, th, td {
+border:0px;
+}
+
+#newstitel2imp, #newstitel3imp, #newstitel4imp, #newstitel5imp, #newstitel6imp {
+font-size:30px;
+font-family:Latoh;
+margin:0;
+padding-top:270px; /*230px direkt anliegend*/
+padding-left:10px;
+}
+
+#newstitel3imp {
+padding-top:480px; /*440px direkt anliegend*/
+} 
+
+#newstitel4imp {
+padding-top:470px; /*430px direkt anliegend*/
+}
+
+#newstitel5imp {
+padding-top:570px; /*530px direkt anliegend*/
+}
+
+#newstitel6imp {
+padding-top:295px; /*255px direkt anliegend*/
+}
+
+
+

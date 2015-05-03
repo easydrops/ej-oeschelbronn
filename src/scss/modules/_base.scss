@@ -1,0 +1,31 @@
+@import "compass/css3";
+
+body {
+  font-family: Verdana, sans-serif;
+  background: $grey;
+}
+
+main {
+  padding: 1em;
+}
+
+footer {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: $dark;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}

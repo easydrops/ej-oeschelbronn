@@ -1,0 +1,261 @@
+@font-face {
+font-family: 'Latoh';
+src: url('/schrift/Lato-Heavy.ttf');
+}
+
+@font-face {
+font-family: 'Latol';
+src: url('/schrift/Lato-Light.ttf');
+}
+
+@font-face {
+font-family: 'Latom';
+src: url('/schrift/Lato-Medium.ttf');
+}
+
+@font-face {
+font-family: 'Lator';
+src: url('/schrift/Lato-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Latob';
+src: url('/schrift/Lato-Black.ttf');
+}
+
+@font-face {
+font-family: 'Latosb';
+src: url('/schrift/Lato-Semibold.ttf');
+}
+
+/*Menü der Slideshow*/          
+                 
+.slidemenu {
+position:absolute;
+width:960px;
+left:50%;
+margin-left:-480px;
+} 
+
+/*Text im Menü der Slideshow*/
+
+.slidemenu span, span#big {
+width:239px;
+height:48px;
+background-color: rgb(245,245,250);
+/*color:black;*/
+position:absolute;
+top:660px;
+font-size: 25px;
+font-family: Latob;
+z-index:100;
+}
+
+.slidemenu span#big {
+-moz-box-shadow: 0px 8px 6px -6px #888; /* Firefox */ 
+-webkit-box-shadow: 0px 8px 6px -6px #888; /* Chrome, Safari */ 
+-khtml-box-shadow: 0px 8px 6px -6px #888; /* Konqueror */
+box-shadow: 0px 8px 6px -6px #888; /* CSS3 */
+background-color: lightgrey;
+width:959px;
+height:67px; 
+}
+
+
+.slidemenu a{
+text-decoration:none;
+}
+
+/*Weitere Blöcke des Menüs der Slideshow */
+
+.slidemenu span#text1 {
+margin-left:0px;
+/*padding-top:15px;*/
+padding-top:18px;
+}
+
+.slidemenu span#text2 {
+margin-left:240px;
+padding-top:18px;
+}
+
+.slidemenu span#text3 {
+margin-left:480px;
+padding-top:18px;
+}
+
+.slidemenu span#text4 {
+margin-left:720px;
+padding-top:18px;
+}
+
+/*Bilder in der Slideshow*/
+
+.slide #blackbox {
+position:absolute;
+top:230px;
+/*background-color:black;*/
+width:960px;                          
+height:420px;
+left:50%;
+margin-left:-480px;
+} 
+    
+.slide img {
+position:absolute;
+width:960px;
+height:420px;
+}
+
+.slidechange {
+position:relative;
+top:230px;
+background-color:rgba(0,0,0,0.4);
+width:960px;                          
+height:420px;
+left:50%;
+margin-left:-480px;
+/*width:960px;
+height:420px;
+/*Zum Test, wo das div liegt:*/
+/*background-color:grey;*/
+z-index:101;
+}
+
+.slidechange {
+
+    opacity: 0;
+        -webkit-transition: all 1s;
+	  -moz-transition: all 1s;
+	  -o-transition: all 1s;
+   	transition: all 1s;
+  }
+
+.slidechange:hover {
+    opacity: 0.8;
+        -webkit-transition: all 1s;
+	  -moz-transition: all 1s;
+	  -o-transition: all 1s;
+   	transition: all 1s;
+  }
+  
+ /*Ausrichtung der Click-Buttons rechts/links*/ 
+.slidechange img {
+margin-top:150px;
+width: 70px;
+height: 100px;
+}
+
+.slidechange img.left{
+margin-left:50px;         
+height:110px;                                
+}
+
+.slidechange img.center{
+margin-left:320px;
+padding-top:25px;
+
+}
+
+.slidechange img.right{
+margin-left:830px;
+}
+
+/* Bild-Unterschrift Box*/
+
+#he1 {
+font-family: Latob;
+font-size:30px;
+padding-top:10px;
+padding-bottom:10px;
+margin:0;
+color: rgb(245,245,250);
+/*text-shadow: black 0.1em 0.1em 0.2em;*/ 
+}
+
+#he3 a, a:visited {
+color: rgb(245,245,250);
+text-decoration:none;
+}
+
+#he2 {
+font-family: Latoh;
+font-size:20px;
+padding-top:10px;
+padding-bottom:10px;
+margin:0;
+color: rgb(245,245,250);
+/*text-shadow: black 0.1em 0.1em 0.2em;*/
+}
+
+#he3 {
+font-family: Latoh;
+font-size:15px;
+padding-top:10px;
+padding-bottom:10px;
+margin:0;
+color: rgb(245,245,250);
+/*text-shadow: black 0.1em 0.1em 0.2em;*/
+}
+
+.slide #bildbeschriftung {
+width:960px;
+height:420px;
+position:absolute;
+top:230px;
+left:50%;
+margin-left:-480px;
+text-align:left;
+}
+
+.slide #bildbeschriftung span#utext1, span#utext2, span#utext3, span#utext4{
+position:absolute;
+z-index:100;
+/*background:none;*/
+/*width:450px;*/
+/*margin-left:-225px;*/
+width:auto;
+/*max-width:500px;*/  
+text-align:left;
+padding-left:10px;
+padding-right:10px;
+/*background-color: rgba(69,155,52,0.9);*/
+background-color: rgba(69,155,52,1);
+margin-top:10px;
+margin-right:500px;
+margin-left:10px;
+/*background-color: rgba(0,0,0,0.3);*/
+/*background-color: rgba(255,255,255,0.6);*/
+/*abgerundete Ecken*/ 
+/*border-bottom-right-radius: 200px;
+border-bottom-left-radius: 200px;*/
+/*top:20px;*/ 
+}
+
+.slide #bildbeschriftung span#utext11, span#utext21, span#utext31, span#utext41{
+position:absolute;
+z-index:100;
+width:auto;
+/*max-width:450px;*/  
+text-align:left;
+padding-left:10px;
+padding-right:10px;
+/*background-color: rgba(69,155,52,0.9);*/
+background-color: rgba(69,155,52,1);
+margin-top:78px;
+margin-right:500px;
+margin-left:10px;
+}
+
+#trennung {
+background-color: rgb(69,155,52);
+height: 10px;
+position:absolute;
+}
+
+.slide #trennung {
+width: 960px;
+margin-top: 650px;
+left:50%;
+margin-left:-480px;
+}
