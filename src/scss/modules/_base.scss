@@ -29,3 +29,8 @@ a {
 .clearfix {
   zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
+
+.card {
+  background: $white;
+  border-top: 10px solid $green;
+}

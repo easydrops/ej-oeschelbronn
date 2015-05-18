@@ -1,7 +1,7 @@
 .slider-wrapper {
   margin: 0 auto;
   text-align: center;
-  width: 80%;
+  width: 100%;
   @include box-shadow(#888 0px 4px 6px);
   margin-bottom: 20px;
 
@@ -14,18 +14,26 @@
 
   }
   .slider-nav {
-    background: $white;
+
     ul {
       margin: 0;
       width: 100%;
+      display: flex;
 
       li {
         list-style: none;
         display: inline-block;
         padding: 1em;
-        width: 25%;
+        flex-grow: 1;
+        border-right: 1px solid $grey;
+
+        &:last-of-type {
+          border-right: none;
+        }
 
         a {
+          font-size: 20px;
+          font-weight: bold;
         }
       }
     }

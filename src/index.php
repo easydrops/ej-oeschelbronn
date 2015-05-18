@@ -50,7 +50,7 @@
           <div class="slider-background">
 
           </div>
-          <div class="slider-nav">
+          <div class="slider-nav card">
             <ul>
               <li><a href="#">Willkommen</a></li>
               <li><a href="#">Losungen</a></li>
@@ -61,16 +61,18 @@
 
         </section>
 
-        <section class="sidebar">
+        <section class="content clearfix">
           <div class="news">
-            Des Weiteren sind immer kürzere Innovationszyklen im technischen Bereich vorzufinden. In immer kürzerer Zeit werden technische Neuerungen in mehreren Gebieten eingeführt. Die Mitarbeiter reagieren darauf zunächst oft skeptisch und ablehnend. Auf die Installierung dieser Innovationen müssen die Gestalter der inneren Kommunikation reagieren, indem sie diese Neuerungen den Mitarbeitern präsent machen, ihnen den Sinn und Zweck erklären und sie darauf einstellen, um so Akzeptanzprobleme zu verringern. (vgl. Hegner 2001: 8 – 9)
-
-            Einen weiteren wesentlichen Punkt stellt die Internationalisierung bzw. Globalisierung dar. Durch die Erschließung neuer Wirtschaftsräume und die Expansion ins Ausland steht die interne Kommunikation auch in diesem Bereich vor einer neuen großen Aufgabe, da nun auch die interne Kommunikation über die Landesgrenzen hinweg organisiert werden muss. In diesem Zusammenhang müssen auch unbedingt kulturelle Unterschiede beachtet werden, nach denen kommuniziert werden muss. (vgl. Klöfer und Nies 2003: 6)
-
-            Zuletzt sind zudem noch die neuen Entwicklungen auf dem Gebiet der internen Medienlandschaften und damit verbunden die neuen Nutzungsmöglichkeiten derselben aufzuführen. Durch Intranet, „Business – TV“ oder Animationen, um nur einige zu nennen, sind in den letzten Jahren neue Kommunikations- und Informationsmöglichkeiten entstanden, die die Akteure der internen Kommunikation nutzen können. Hierbei stehen sie vor Aufgaben wie bspw. Welches Medium soll für welche Zielgruppe/welchen Kommunikationsinhalt genu
+          <h2>Aktuelle News</h2>
+            <div class="card">
+              <?php echo "hello" ?>
+            </div>
           </div>
           <aside class="dates">
-
+            <h2>Neuste Termine</h2>
+            <div class="card">
+              <?php echo "hello" ?>
+            </div>
           </aside>
         </section>
       </main>

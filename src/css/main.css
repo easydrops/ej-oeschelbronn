@@ -38,6 +38,36 @@ a {
   /* For IE 6/7 (trigger hasLayout) */
 }
 
+/* line 33, ../scss/modules/_base.scss */
+.card {
+  background: #ffffff;
+  border-top: 10px solid #459b34;
+}
+
+/* line 1, ../scss/modules/_content.scss */
+.content {
+  display: flex;
+}
+/* line 3, ../scss/modules/_content.scss */
+.content .news {
+  float: left;
+  flex-grow: 2;
+  margin-right: 1em;
+}
+/* line 8, ../scss/modules/_content.scss */
+.content .news .card {
+  padding: 1em;
+}
+/* line 13, ../scss/modules/_content.scss */
+.content .dates {
+  float: left;
+  flex-grow: 1;
+}
+/* line 17, ../scss/modules/_content.scss */
+.content .dates .card {
+  padding: 1em;
+}
+
 /* line 1, ../scss/modules/_header.scss */
 .page-logo {
   background: #459b34;
@@ -141,7 +171,7 @@ a {
 .slider-wrapper {
   margin: 0 auto;
   text-align: center;
-  width: 80%;
+  width: 100%;
   -moz-box-shadow: #888 0px 4px 6px;
   -webkit-box-shadow: #888 0px 4px 6px;
   box-shadow: #888 0px 4px 6px;
@@ -154,19 +184,26 @@ a {
   background-size: cover;
   height: 500px;
 }
-/* line 16, ../scss/modules/_slider.scss */
-.slider-wrapper .slider-nav {
-  background: #ffffff;
-}
 /* line 18, ../scss/modules/_slider.scss */
 .slider-wrapper .slider-nav ul {
   margin: 0;
   width: 100%;
+  display: flex;
 }
-/* line 22, ../scss/modules/_slider.scss */
+/* line 23, ../scss/modules/_slider.scss */
 .slider-wrapper .slider-nav ul li {
   list-style: none;
   display: inline-block;
   padding: 1em;
-  width: 25%;
+  flex-grow: 1;
+  border-right: 1px solid #ecf0f1;
+}
+/* line 30, ../scss/modules/_slider.scss */
+.slider-wrapper .slider-nav ul li:last-of-type {
+  border-right: none;
+}
+/* line 34, ../scss/modules/_slider.scss */
+.slider-wrapper .slider-nav ul li a {
+  font-size: 20px;
+  font-weight: bold;
 }
