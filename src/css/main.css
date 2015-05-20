@@ -1,44 +1,44 @@
-/* line 3, ../scss/modules/_base.scss */
+/* line 5, ../scss/modules/_base.scss */
 body {
   font-family: Verdana, sans-serif;
   background: #ecf0f1;
 }
 
-/* line 8, ../scss/modules/_base.scss */
+/* line 10, ../scss/modules/_base.scss */
 main {
   padding: 1em;
 }
 
-/* line 12, ../scss/modules/_base.scss */
+/* line 14, ../scss/modules/_base.scss */
 footer {
   display: block;
 }
 
-/* line 16, ../scss/modules/_base.scss */
+/* line 18, ../scss/modules/_base.scss */
 a {
   text-decoration: none;
   color: #0f0f0f;
 }
 
-/* line 21, ../scss/modules/_base.scss */
+/* line 23, ../scss/modules/_base.scss */
 .clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 26, ../scss/modules/_base.scss */
+/* line 28, ../scss/modules/_base.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 29, ../scss/modules/_base.scss */
+/* line 31, ../scss/modules/_base.scss */
 .clearfix {
   zoom: 1;
   /* For IE 6/7 (trigger hasLayout) */
 }
 
-/* line 33, ../scss/modules/_base.scss */
+/* line 35, ../scss/modules/_base.scss */
 .card {
   background: #ffffff;
   border-top: 10px solid #459b34;
@@ -92,47 +92,54 @@ a {
 }
 /* line 19, ../scss/modules/_header.scss */
 .main-navigation ul {
+  display: flex;
   background: #ffffff;
-  margin: 0;
+  margin: 0 auto;
   padding: 1em;
 }
-/* line 24, ../scss/modules/_header.scss */
+/* line 26, ../scss/modules/_header.scss */
 .main-navigation ul li {
   display: inline-block;
   position: relative;
   list-style: none;
   border-right: 2px solid black;
+  flex-grow: 1;
 }
-/* line 30, ../scss/modules/_header.scss */
+/* line 33, ../scss/modules/_header.scss */
 .main-navigation ul li:last-of-type {
   border: none;
 }
-/* line 35, ../scss/modules/_header.scss */
+/* line 37, ../scss/modules/_header.scss */
+.main-navigation ul li a {
+  text-decoration: none;
+  font-size: 22px;
+}
+/* line 41, ../scss/modules/_header.scss */
+.main-navigation ul li a:hover {
+  color: #459b34;
+}
+/* line 48, ../scss/modules/_header.scss */
 .main-navigation ul li .header-buttons img {
   height: 22px;
 }
-/* line 40, ../scss/modules/_header.scss */
+/* line 53, ../scss/modules/_header.scss */
 .main-navigation ul li ul {
   display: none;
 }
-/* line 45, ../scss/modules/_header.scss */
+/* line 58, ../scss/modules/_header.scss */
 .main-navigation ul li:hover ul {
-  display: block;
+  display: flex;
   position: absolute;
 }
-/* line 49, ../scss/modules/_header.scss */
+/* line 62, ../scss/modules/_header.scss */
 .main-navigation ul li:hover ul li {
   display: block;
   text-align: left;
   border: none;
-}
-/* line 57, ../scss/modules/_header.scss */
-.main-navigation ul li a {
-  padding: 1em;
-  text-decoration: none;
+  flex-grow: 0.5;
 }
 
-/* line 65, ../scss/modules/_header.scss */
+/* line 75, ../scss/modules/_header.scss */
 .main-navigation--fixed {
   position: fixed;
   top: 0;

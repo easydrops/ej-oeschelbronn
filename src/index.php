@@ -14,7 +14,7 @@
       <header class="clear">
 
         <div class="page-logo">
-          <img src="/images/logo.png"/>
+          <img src="images/logo.png"/>
         </div>
         <nav class="main-navigation">
           <ul>
@@ -35,9 +35,9 @@
             <li><a href="#">Galerie</a></li>
             <li>
               <div class="header-buttons">
-                <a href="#"><img src="/images/btn_fb.png"/></a>
-                <a href="#"><img src="/images/btn_yt.png"/></a>
-                <a href="#"><img src="/images/btn_mail.png"/></a>
+                <a href="#"><img src="images/btn_fb.png"/></a>
+                <a href="#"><img src="images/btn_yt.png"/></a>
+                <a href="#"><img src="images/btn_mail.png"/></a>
               </div>
             </li>
           </ul>
@@ -78,7 +78,7 @@
       </main>
 
       <footer class="main-footer clearfix">
-          <img src="/images/logo_sole.png"/>
+          <img src="images/logo_sole.png"/>
         <ul>
           <li><a href="#">Impressum</a></li>
           <li><a href="#">Datenschutz</a></li>

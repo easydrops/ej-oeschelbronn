@@ -17,8 +17,10 @@
   @include box-shadow(#888 0px 4px 6px);
 
   ul {
+    display: flex;
+    //width: 50%;
     background: $white;
-    margin: 0;
+    margin: 0 auto;
     padding: 1em;
 
     li {
@@ -26,9 +28,20 @@
       position: relative;
       list-style: none;
       border-right: 2px solid black;
+      flex-grow: 1;
 
       &:last-of-type {
         border: none;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: $large-font-size;
+
+        &:hover {
+          color: $green;
+        }
+
       }
 
       .header-buttons {
@@ -43,21 +56,18 @@
 
         &:hover {
           ul {
-            display: block;
+            display: flex;
             position: absolute;
 
             li {
               display: block;
               text-align: left;
               border: none;
+              flex-grow: 0.5;
             }
           }
         }
 
-      a {
-        padding: 1em;
-        text-decoration: none;
-      }
     }
   }
 }
